@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <script src="./ass.js"></script>
+    <title>Scroll Animation</title>
+</head>
+<body>
+    <script src="https://unpkg.com/udesly-styler-widget-loader@latest/dist/udesly-styler-widget-loader.js"></script>   
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div>Plot</div>
+            <div>Goonies</div>
+            <div>Credits</div>
+            <div>Gallery</div>
+        </div>
+    </nav>
+    <div class="main-container">
+        <section class="section1">
+            <div class="home-section">
+                <div class="main-heading-section">
+                    <img src="assets/images/5cffeb65d43eb732944316c4_logo-p-500.png" class="home-log" alt="logo">
+                </div>
+            
+                <div class="introduction">
+                    <h1 class="plot-title">Plot</h1>
+                    <p class="plot-text">Facing foreclosure of their homes in the Goon Docks area of Astoria, Oregon to an expanding country club, a group of children who call themselves "the Goonies" gather for a final weekend together.</p>
+                </div>
+            
+                <div class="content-container"></div>
+            </div>
+        </section>
+
+    
+
+    <section class="section2">
+        <div class="image-container">
+            <div class="kid-pic">
+                <img src="/assets/images/5d000a3b16a6c64e19f1841b_1.jpg" alt="Kid Image">
+                <div class="image-text">
+                  <div class="kid-name">Mikey</div>
+                  <div class="card-info">More Info  <i class="fa fa-arrow-right" aria-hidden="true"></i></div>  
+                </div>
+            </div>
+            <div class="kid-pic">
+                <img src="/assets/images/5d000a3b7c779fffb58ff3ed_2.jpg" class="Image">
+                <div class="image-text">
+                    <div class="kid-name">Chunk</div>
+                    <div class="card-info">More Info  <i class="fa fa-arrow-right" aria-hidden="true"></i></div>  
+                  </div>
+            </div>
+            <div class="kid-pic">
+                <img src="/assets/images/5d02ab04e61881f2925c8c80_gadet.jpg" alt="Kid Image">
+                <div class="image-text">
+                    <div class="kid-name">Data</div>
+                    <div class="card-info">More Info  <i class="fa fa-arrow-right" aria-hidden="true"></i></div>  
+                  </div>
+            </div>
+            <div class="kid-pic">
+                <img src="/assets/images/5d002392773f43b68a233649_4.jpg" alt="Kid Image">
+                <div class="image-text">
+                    <div class="kid-name">Mouth</div>
+                    <div class="card-info">More Info  <i class="fa fa-arrow-right" aria-hidden="true"></i></div>  
+                  </div>
+            </div>
+        </div>
+    </section>
+        </div>
+
+   
+    <section class="section3">
+        <div id="image-container" class="coin-row">
+            <div class="left-coinpair coin-pair"> <!-- Added "coin-pair" class -->
+                <img src="/assets/images/5d25ce8103e41038cf3b4be7_coin-1.png" alt="coin-1" class="coin-image" />
+                <img src="/assets/images/5d25cdda7dcddd7271ddc7da_coin.png" alt="coin-2" class="coin-image" />
+            </div>
+            <div class="gooies-heading">Goonies Never Say Die</div>
+            <img src="/assets/images/5d25c68703e41086eb3b2da1_key-min.png" alt="key" class="key-image" />
+            <div class="right-coinpair coin-pair"> <!-- Added "coin-pair" class -->
+                <img src="/assets/images/5d25ce8103e4105bd13b4be8_coin-3.png" alt="coin-3" class="coin-image" />
+                <img src="/assets/images/5d25cdda7dcddd7271ddc7da_coin.png" alt="coin-4" class="coin-image" />
+            </div>
+        </div>
+    </section>
+</div>
+  
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- <section class="section3">
+        <div id="image-container">
+            <div class="left-coinpair">
+            <img src="/assets/images/5d25ce8103e41038cf3b4be7_coin-1.png" alt="coin-1" class="coin-image" />
+            <img src="/assets/images/5d25cdda7dcddd7271ddc7da_coin.png" alt="coin-2" class="coin-image" />
+            </div>
+            <img src="/assets/images/5d25c68703e41086eb3b2da1_key-min.png" alt="key" class="key-image" />
+            <div  class="right-coinpair">
+            <img src="/assets/images/5d25ce8103e4105bd13b4be8_coin-3.png" alt="coin-3" class="coin-image" />
+            <img src="/assets/images/5d25cdda7dcddd7271ddc7da_coin.png" alt="coin-4" class="coin-image" />
+            <div>
+        </div>
+    </section> -->
+    
+
+    <!-- <script>
+  const overlay = document.getElementById("overlay");
+        const triggerHide = 0.3; // Hide section1 when scrolling down to 30% of its height
+        let isHidden = false;
+
+        window.addEventListener("scroll", function () {
+            const scrollPos = window.scrollY;
+            const section1 = document.querySelector(".section1");
+            const section1Height = section1.offsetHeight;
+
+            if (scrollPos >= triggerHide * section1Height && !isHidden) {
+                overlay.style.display = "block";
+                isHidden = true;
+            } else if (scrollPos < triggerHide * section1Height && isHidden) {
+                overlay.style.display = "none";
+                isHidden = false;
+            }
+        });
+    </script> -->
+<script>
+           const section1 = document.querySelector(".section1");
+        const triggerHide = 0.4; // Hide section1 when scrolling down to 30% of the window
+        let isHidden = false;
+
+        window.addEventListener("scroll", function () {
+            const scrollPos = window.scrollY;
+            const windowHeight = window.innerHeight;
+
+            if (scrollPos >= triggerHide * windowHeight && !isHidden) {
+                section1.style.opacity = 0;
+                isHidden = true;
+            } else if (scrollPos < triggerHide * windowHeight && isHidden) {
+                section1.style.opacity = 1;
+                isHidden = false;
+            }
+        });
+
+</script>
+</body>
+</html>
