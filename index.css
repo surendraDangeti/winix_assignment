@@ -5,10 +5,10 @@ body {
     background-position: center;
     background-attachment: fixed;
     background-color: black;
+    overflow-x: hidden;
 }
 
 .main-container {
-    background-image: url('your-background-image.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -50,7 +50,7 @@ h1, p {
 
 .home-section {
     background-image: url("/assets/images/5d13364599bb70e3560cc4e5_background-min 3.png");
-    min-height: 1200px;
+    min-height: 880px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -75,7 +75,7 @@ h1, p {
 
 .introduction {
     position: absolute;
-    top: 460px;
+    top: 390px;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -157,7 +157,6 @@ h1, p {
 .section3 {
     text-align: center;
     color: white;
-    padding: 20px;
     display: flex;
     justify-content: center;
 }
@@ -221,6 +220,8 @@ h1, p {
     color: white;
     transform: translate(-50%, -50%);
     z-index: 1;
-    display: block;
+    /* display: block; */
     text-align: center;
+        margin-top: auto;
+    margin-bottom: auto;
 }
